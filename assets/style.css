@@ -1,0 +1,137 @@
+/* ==============================
+   GLOBAL
+============================== */
+
+.stApp {
+    background-color: #0E1117;
+    color: white;
+}
+
+/* ==============================
+   SIDEBAR
+============================== */
+
+section[data-testid="stSidebar"] {
+    background-color: #161B22;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* ==============================
+   TITLES
+============================== */
+
+h1 {
+    text-align: center;
+    color: #00BFFF;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: white;
+}
+
+/* ==============================
+   BUTTON
+============================== */
+
+.stButton>button {
+
+    width: 100%;
+
+    background: linear-gradient(90deg,#00BFFF,#1E90FF);
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    border-radius: 10px;
+
+    border: none;
+
+    padding: 10px;
+
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+
+    background: linear-gradient(90deg,#1E90FF,#00BFFF);
+
+    transform: scale(1.02);
+
+}
+
+/* ==============================
+   TEXT INPUT
+============================== */
+
+.stTextInput input {
+
+    border-radius: 10px;
+
+}
+
+/* ==============================
+   SUCCESS MESSAGE
+============================== */
+
+.stSuccess {
+
+    border-radius: 10px;
+
+}
+
+/* ==============================
+   WARNING
+============================== */
+
+.stWarning {
+
+    border-radius: 10px;
+
+}
+
+/* ==============================
+   ERROR
+============================== */
+
+.stError {
+
+    border-radius: 10px;
+
+}
+
+/* ==============================
+   CONTAINERS
+============================== */
+
+div[data-testid="stVerticalBlock"]>div {
+
+    border-radius: 12px;
+
+}
+
+/* ==============================
+   PROGRESS BAR
+============================== */
+
+.stProgress > div > div > div {
+
+    background-color: #00BFFF;
+
+}
+
+/* ==============================
+   HORIZONTAL LINE
+============================== */
+
+hr {
+
+    border: 1px solid #30363d;
+
+}
